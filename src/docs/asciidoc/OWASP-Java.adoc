@@ -8,6 +8,8 @@ ifndef::sourcedir[:sourcedir: ../java]
 
 This is a user manual for an example project.
 
+include::subdir/pci.adoc[]
+
 == Cross Site Scripting
 include::subdir/cross_site_scripting.adoc[]
 

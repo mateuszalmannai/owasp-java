@@ -1,0 +1,88 @@
+== What is PCI DSS and why does it matter?
+* PCI DSS policies were developed to strengthen transaction security.
+* The Payment Card Industry Data Security Standards (PCI DSS) is a set of policies and procedures created with a two-fold objective: to strengthen credit, debit, and cash card transaction security and to protect cardholders against card fraud and theft of their personal information.
+* The PCI Data Security Standard is administered by the Payment Card Industry Security Standards Council (PCI SSC) which is comprised of five founding global payment brands:
+1. Visa Inc.
+2. MasterCard
+3. American Express
+4. Discover Financial Services
+5. JCB International
+
+== Complying With PCI DSS
+* The PCI DSS applies to organizations of any size that accept, transmit, or store any cardholder data. While organizations’ degrees or levels of compliance vary depending on the size of their transactions, they generally need to comply with the same requirements.
+* The PCI DSS specifies six major requirements:
+
+=== Requirement #1: Build and Maintain a Secure Network
+* A secure network ensures that every transaction is safely conducted.
+* This requirement involves the installation and maintenance of firewalls without causing any inconveniences to cardholders and vendors.
+* Firewalls minimize instances of hacking and illegal eavesdropping or surveillance of an organization’s network.
+* This requirement also includes changing vendor-supplied default passwords for systems and security modules.
+* The PCI DSS also requires enterprises to enable their customers to easily change their user passwords, if any.
+
+=== Requirement #2: Protect Cardholder Data
+* The PCI DSS requires enterprises to protect cardholder information wherever it is stored.
+* Repositories keeping vital information such as dates of birth, credit card numbers, mailing addresses, and other personally identifiable information should be kept secure against hackers and malicious software.
+* The PCI DSS requires the use of encryption especially when cardholder data is shared through open and public networks. This requirement is critical in all credit card transactions, but more especially in e-commerce transactions.
+
+=== Requirement #3: Maintain a Vulnerability Management Program
+* This requirement requires enterprises to ensure that the security of their systems and software are up to date to protect themselves and their customers’ information from emerging threats.
+* This requirement includes using and regularly updating anti-virus, anti-spyware, and other anti-malware software.
+* This also includes ensuring that software is free from bugs that can exploit vulnerabilities in the enterprises’ systems. Strengthening the security of systems and applications also involves downloading and installing the latest patches for operating systems, which provide the backbone for applications.
+
+=== Requirement #4: Implement Strong Access Control Measures
+* The PCI DSS necessitates strong internal controls especially when it comes to access to systems and customer information.
+* First, enterprises should not require cardholders to provide additional personal information that is not required to process business transactions.
+* Second, enterprises need to internally restrict access to cardholder data only to those who are processing transactions.
+* Third, each person with computer access to the systems must be assigned a unique ID or confidential identification number.
+* Finally, physical access to cardholder data must also be restricted by enterprises.
+* This includes the use of secure locations in keeping paper documents containing cardholders’ personal information, proper disposal of documents, limiting duplication of documents, and even the utilization of locks and chains in securing offices where documents are kept.
+
+=== Requirement #5: Regularly Monitor and Test Networks
+* Meeting PCI DSS compliance requirements does not stop at establishing safeguards and security procedures.
+* Enterprises also have to continually monitor and test their networks and systems, as well as track and monitor access to cardholder data and network resources to identify risk areas.
+* Understanding the flow of information or cardholder data also prevents potential leakages in the systems. Frequently stress-testing security systems and procedures will also ensure that they can handle malicious attacks of varying degrees of complexity.
+
+=== Requirement #6: Maintain an Information Security Policy
+* Finally, enterprises must formalize their security measures into enterprise-wide policies.
+* The PCI DSS requires enterprises to maintain policies for their information security that employees, contractors, and all partners need to follow.
+
+== Best Practices for PCI DSS Compliance
+While PCI DSS compliance can seem overwhelming, the PCI Security Standards Council has integrated the best practices of enterprises and security experts from around the world, compiling them into eight straightforward tips for easier implementation:
+* Purchase and utilize only approved PIN entry devices at points of sale (POS).
+* Purchase and utilize only validated payment software at POS and/or e-commerce shopping cart.
+* Avoid storing sensitive cardholder data and/or PII in computers or on paper documents.
+* Install firewalls on networks, personal computers, and devices.
+* Password-protect and encrypt wireless routers and LAN.
+* Regularly change and use strong passwords on hardware and software.
+* Frequently check PIN entry devices to ensure protection from skimming devices and malicious software.
+* Create formal policies and procedures and train employees about information security and cardholder data protection measures.
+
+== The Benefits of Complying With PCI DSS
+Aside from avoiding fines and penalties that can add up to $500,000, complying with the PCI DSS also provides business benefits:
+=== Minimizing Security Risks
+* Compliance with the PCI DSS is not just putting a tick mark on every checkbox in a compliance checklist.
+* The PCI DSS is proven to optimize security to prevent attacks against enterprises and protect customer data.
+* According to a report published by Verizon, companies that have experienced security breaches were less likely to be compliant with PCI DSS.
+
+=== Increasing Customer Confidence
+* Customers are becoming more and more aware of the security risks associated with giving away their credit card information to merchants.
+* While they don’t fully understand what it takes to become PCI DSS compliant, they look for PCI compliance to know that merchants are following best practices in protecting their information.
+* In fact, according to the same Verizon report, 69% of consumers are less likely to do business with an organization that has suffered from a security breach.
+
+=== Adhering to Generally Accepted Standards
+* Many enterprises still do not know where to begin when it comes to credit card security.
+* The PCI DSS is a set of standards accepted globally.
+* It provides enterprises with a baseline that they can easily comply with and implement throughout their entire organization, regardless of where they are operating in the world.
+
+=== Complying With EU GDPR
+* The European Union’s General Data Protection Regulation (EU GDPR) will be in full effect by the 25th of May 2018.
+* This will lead to stricter regulations for protecting the personally identifiable information (PII) of EU citizens, whether they are in the EU or not.
+* The PCI DSS is designed to safeguard PII regardless of citizenship.
+* Its standards and regulations are aligned with those of the GDPR.
+* While it is not the complete answer to GDPR compliance, adherence to the PCI DSS is considered a good first step in preparing for the new set of regulations.
+
+== Reduce Your PCI DSS Compliance Burden With Tokenization
+* Even with best practices and quick implementation guides for PCI DSS compliance, many enterprises still find the compliance procedures burdensome and time-consuming.
+* Most merchants, especially e-commerce companies, have to redirect time, money, and resources from their strategic objectives in order to comply with PCI regulations.
+* Tokenization enables enterprises to replace sensitive data such as personally identifiable information with surrogate data, or tokens.
+* Instead of using cardholder data to process transactions and storing them in repositories, enterprises can replace sensitive PCI and PII data throughout their applications with randomly generated tokens, thus removing the points of compromise.
